@@ -11,7 +11,7 @@ function App() {
   return (
 
     <CartProvider>
-      <ToastContainer position="bottom-left" newestOnTop={true} autoClose={600} hideProgressBar/>
+      <ToastContainer position="top-right" newestOnTop={true} autoClose={600} hideProgressBar/>
       <Header/>
       <Products/>
     </CartProvider>
