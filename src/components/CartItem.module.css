@@ -55,3 +55,16 @@
         gap: 3rem;
     }
 }
+
+@media screen and (max-width:400px) {
+    .cartItem{
+        grid-template-columns: 1fr;
+        margin-bottom: 3rem;
+    }
+
+    .otherControls{
+        /* background-color: aqua; */
+        justify-content: space-between;
+        gap: 1rem;
+    }
+}
